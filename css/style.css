@@ -314,6 +314,10 @@ a:hover {
     padding-top: 5px;
 }
 
+.logo img {
+    width: 100%;
+}
+
 
 .main {
     min-height: 100vh;
@@ -990,6 +994,15 @@ a:hover {
     gap: 48px;
 }
 
+.login-box .loginlogo {
+    width: 185px;
+}
+
+.login-box .loginlogo img {
+    width: 100%
+}
+
+
 .login-box form {
     display: flex;
     flex-direction: column;
@@ -1018,12 +1031,10 @@ a:hover {
     position: absolute;
     right: 16px;
     display: flex;
-    padding: 4px;
+    padding: 4px 15px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80px;
-
     background: #408CFF;
     border-radius: 8px;
 }
@@ -1154,10 +1165,12 @@ a:hover {
 
 .subtract .vip i {
     background-image: url(../images/icon/vipicon.svg);
+    background-size: cover;
 }
 
 .subtract .gif i {
-    background-image: url(../images/icon/gificon.svg);
+    background-image: url(../images/icon/gificon.png);
+    background-size: cover;
 }
 
 .usertopbm {
@@ -1800,18 +1813,13 @@ a:hover {
 .btn-edit {
     font-size: 14px;
     line-height: 16px;
-
     color: #F4F8FE;
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 2px 10px;
-
-    width: 76px;
-    height: 20px;
-
+    padding: 3px 15px;
     background: #0094FF;
     border-radius: 3px;
+    justify-content: center;
+    align-items: center;
 }
 
 /***record***/
@@ -2723,6 +2731,18 @@ a:hover {
     position: relative;
 }
 
+.rank-box .w1 {
+    width: 20px;
+}
+
+.rank-box .w2 {
+    width: 20px;
+}
+
+.rank-box .w3 {
+    width: 20px;
+}
+
 .rank-1 {
     position: relative;
     height: 170px;
@@ -2730,16 +2750,19 @@ a:hover {
 }
 
 .rank-1 .rkp1 {
+    width: 165px;
     top: 10%;
     right: 15%;
 }
 
 .rank-1 .rkp2 {
+    width: 336px;
     top: -10%;
     right: 0%;
 }
 
 .rank-1 .rkp3 {
+    width: 167px;
     top: 10%;
     left: 15%;
 }
