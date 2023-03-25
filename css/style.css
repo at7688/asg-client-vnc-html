@@ -1814,14 +1814,16 @@ a:hover {
     background-color: #cacaca;
 }
 
-.btn-edit,.btn-edit:hover,.btn-edit:focus,.btn-edit:active {
+.btn-edit, .btn-edit:hover, .btn-edit:focus, .btn-edit:active {
     font-size: 14px;
     line-height: 16px;
     color: #F4F8FE;
-    display: flex;
+    
     padding: 3px 15px;
     background: #0094FF;
     border-radius: 3px;
+
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -2430,7 +2432,7 @@ a:hover {
 .dep-3-1 a {
     color: black;
     width: 100%;
-    padding: 4px 10px;
+    padding: 6px 10px;
 
     background: #F7F8F9;
     border-radius: 4px;
