@@ -1243,6 +1243,10 @@ a:hover {
     border-radius: 15px;
 }
 
+.us-logout {
+    margin-bottom: 30px;
+}
+
 .us-m-list a,.us-logout a {
     font-size: 14px;
     line-height: 16px;
