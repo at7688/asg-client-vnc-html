@@ -1229,7 +1229,7 @@ a:hover {
     background-image: url(../images/icon/user-m-icon4.svg);
 }
 
-.us-m-list {
+.us-m-list,.us-logout {
     width: 90%;
     height: auto;
     margin: 0 auto;
@@ -1243,7 +1243,7 @@ a:hover {
     border-radius: 15px;
 }
 
-.us-m-list a {
+.us-m-list a,.us-logout a {
     font-size: 14px;
     line-height: 16px;
     color: #000000;
