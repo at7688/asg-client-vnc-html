@@ -2322,7 +2322,7 @@ a:hover {
     margin: 0 auto;
 }
 
-.dep-2 a,.dep-2 a:hvoer,.dep-2 a:focus {
+.dep-2 a, .dep-2 a:hover, .dep-2 a:focus {
     color: black;
     font-size: 14px;
     line-height: 16px;
