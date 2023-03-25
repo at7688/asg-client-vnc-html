@@ -1810,7 +1810,7 @@ a:hover {
     background-color: #cacaca;
 }
 
-.btn-edit {
+.btn-edit,.btn-edit:hover,.btn-edit:focus,.btn-edit:active {
     font-size: 14px;
     line-height: 16px;
     color: #F4F8FE;
@@ -2319,7 +2319,7 @@ a:hover {
     margin: 0 auto;
 }
 
-.dep-2 a {
+.dep-2 a,.dep-2 a:hvoer,.dep-2 a:focus {
     color: black;
     font-size: 14px;
     line-height: 16px;
@@ -2343,7 +2343,7 @@ a:hover {
 
 .dep-2 a.active {
     color: #FFFFFF;
-
+    border-radius: 15px;
     background: linear-gradient(180deg, #3E5C95 0%, #314256 63.84%, #242E3C 63.85%, #0F1520 108.49%);
 }
 
