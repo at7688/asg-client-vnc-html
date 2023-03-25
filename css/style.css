@@ -1744,7 +1744,7 @@ a:hover {
 /***account***/
 
 .account-off {
-    height: 60vh;
+    height: 70vh;
 }
 
 
@@ -2022,7 +2022,7 @@ a:hover {
 /***maycard***/
 
 .mycard-off {
-    height: 90vh;
+    height: 80vh;
 }
 
 .demoinfo ul li {
@@ -2160,9 +2160,8 @@ a:hover {
     border-radius: 10px;
 }
 
-.card-2 a {
-    box-sizing: content-box;
-    padding: 10px 20px;
+.card-2 a,.card-2 a:hover {
+    padding: 15px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
