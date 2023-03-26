@@ -687,7 +687,7 @@ a:hover {
 }
 
 .game-play .mpic {
-    width: 190px;
+    width: 210px;
     position: absolute;
     bottom: 0;
     right: 0;
@@ -1229,7 +1229,8 @@ a:hover {
     background-image: url(../images/icon/user-m-icon4.svg);
 }
 
-.us-m-list,.us-logout {
+.us-m-list,
+.us-logout {
     width: 90%;
     height: auto;
     margin: 0 auto;
@@ -1247,7 +1248,8 @@ a:hover {
     margin-bottom: 30px;
 }
 
-.us-m-list a,.us-logout a {
+.us-m-list a,
+.us-logout a {
     font-size: 14px;
     line-height: 16px;
     color: #000000;
@@ -1814,11 +1816,14 @@ a:hover {
     background-color: #cacaca;
 }
 
-.btn-edit, .btn-edit:hover, .btn-edit:focus, .btn-edit:active {
+.btn-edit,
+.btn-edit:hover,
+.btn-edit:focus,
+.btn-edit:active {
     font-size: 14px;
     line-height: 16px;
     color: #F4F8FE;
-    
+
     padding: 3px 15px;
     background: #0094FF;
     border-radius: 3px;
@@ -2166,7 +2171,8 @@ a:hover {
     border-radius: 10px;
 }
 
-.card-2 a,.card-2 a:hover {
+.card-2 a,
+.card-2 a:hover {
     padding: 15px 20px;
     display: flex;
     flex-direction: column;
@@ -2324,7 +2330,9 @@ a:hover {
     margin: 0 auto;
 }
 
-.dep-2 a, .dep-2 a:hover, .dep-2 a:focus {
+.dep-2 a,
+.dep-2 a:hover,
+.dep-2 a:focus {
     color: black;
     font-size: 14px;
     line-height: 16px;
@@ -2637,14 +2645,16 @@ a:hover {
     background: linear-gradient(180deg, rgba(216, 228, 250, 0) 0%, #D6E2F8 48.09%, rgba(207, 219, 242, 0) 96.01%);
 }
 
-.total,.winlose  {
+.total,
+.winlose {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
 
-.total div,.winlose div {
+.total div,
+.winlose div {
     font-size: large;
 }
 
@@ -2670,7 +2680,7 @@ a:hover {
     gap: 8px;
 }
 
-.bet-2-3 .date{
+.bet-2-3 .date {
     color: #6185b0;
 }
 
@@ -2691,42 +2701,45 @@ a:hover {
     background-color: #5e5e5e;
 }
 
-.bet-2-4 .title{
+.bet-2-4 .title {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    gap:4px;
+    gap: 4px;
 }
 
-.bet-2-4 .list{
+.bet-2-4 .list {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    gap:4px;
+    gap: 4px;
 }
 
-.bet-2-4 .list div ,.bet-2-4 .title div {
+.bet-2-4 .list div,
+.bet-2-4 .title div {
     width: 100%;
     padding: 5px 0;
     text-align: left;
-    word-break:break-all; 
+    word-break: break-all;
 }
 
 
-.bet-2-4 .title div:last-child,.bet-2-4 .list div:last-child {
-    word-break:break-all; 
+.bet-2-4 .title div:last-child,
+.bet-2-4 .list div:last-child {
+    word-break: break-all;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex: 0 0 100px;
 }
 
-.bet-2-4 .title div:first-child, .bet-2-4 .list div:first-child {
-    word-break:break-all; 
+.bet-2-4 .title div:first-child,
+.bet-2-4 .list div:first-child {
+    word-break: break-all;
     white-space: pre-wrap;
-    word-wrap:break-word;
+    word-wrap: break-word;
     flex: 0 0 80px;
 }
 
@@ -3235,4 +3248,121 @@ a:hover {
 .bon-1-2 {
     font-size: 14px;
     text-align: center;
+}
+
+
+.bg-part {
+    background-position: 0 -100px;
+}
+
+.bg-part .bg6 {
+    top: -7px;
+}
+
+/*************part*************/
+
+.part-box {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.part-1 {
+    font-size: 15px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 26px 20px;
+    margin-bottom: 20px;
+    gap: 15px;
+
+    background: linear-gradient(75.83deg, #6B8FC7 1.87%, #3B5481 13.53%, #354965 13.54%, #2A5087 87.78%, #486798 88.01%, #5E81B7 97.89%);
+    border-radius: 15px;
+}
+
+.part-box .pro-2-1 .img {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.part-1 .vip-4 {
+    margin-top: 0px;
+}
+
+.part-1 .vip-4 .title {
+    font-size: 17px;
+    gap: 4px;
+}
+
+.part-1 .title2 {
+    font-size: 22px;
+    text-align: center;
+}
+
+.part-1-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.part-1-1 .step {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    padding: 6px 10px;
+    gap: 6px;
+
+    background: linear-gradient(180deg, #ACB4CF 5.38%, rgba(80, 86, 117, 0) 100%);
+    border-radius: 10px;
+}
+
+.part-1-1 .step .text {
+    color: #ffedc4;
+    font-size: 14px;
+}
+
+.part-1-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.part-1-2 a {
+    color: white;
+    font-size: 14px;
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    padding: 6px 9px;
+    gap: 6px;
+    background: linear-gradient(180deg, #ACB4CF 5.38%, rgba(80, 86, 117, 0) 100%);
+    border-radius: 10px;
+}
+
+
+.part-2 .bet-2-4 {
+    padding: 0px;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.part-2 .bet-2-4 .title {
+    color: white;
+    padding: 5px 0;
+    background-color: #2a4f82;
+}
+
+.part-2 .bet-2-4 hr {
+    margin: 0px;
+}
+
+.part-2 .bet-2-4 .list {
+    padding: 5px 0;
+}
+
+.part-2 .bet-2-4 .list:nth-child(even) {
+    background-color: #F3F5FF;
 }
