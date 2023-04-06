@@ -3172,9 +3172,40 @@ a:hover {
     background-position: 0 -140px;
 }
 
+.bg-bo .bg6 {
+    top: -47px;
+}
+
 .bonus-box {
     position: relative;
     padding-bottom: 30px;
+}
+
+.receiveall {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.receiveall a {
+    color: white;
+    font-size: 14px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px;
+
+    width: 88px;
+    height: 30px;
+
+
+    background: linear-gradient(180deg, #FFD9A0 0%, #FF9900 100%);
+    border-radius: 4px;
 }
 
 .bon-1 {
@@ -3218,6 +3249,7 @@ a:hover {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+    gap: 8px;
 }
 
 .bon-1-1 .state1 {
@@ -3245,6 +3277,48 @@ a:hover {
     width: 30px;
 }
 
+.bon-1-1 .state3 {
+    font-size: medium;
+    color: #E80000;
+    width: 20%;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    background: #FAFAFA;
+    border-radius: 6px;
+
+}
+
+.bon-1-1 .state4 {
+    font-size: medium;
+    color: #596898;
+    width: 20%;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    background: #FAFAFA;
+    border-radius: 6px;
+
+}
+
+.bon-1-1 .state5 {
+    font-size: medium;
+    color: #29BE5C;
+    width: 20%;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    background: #FAFAFA;
+    border-radius: 6px;
+
+}
+
 .bon-1-2 {
     font-size: 14px;
     text-align: center;
@@ -3257,6 +3331,25 @@ a:hover {
 
 .bg-part .bg6 {
     top: -7px;
+}
+
+.bon-1-1-1 {
+    color: #596898;
+    font-size: 14px;
+    
+    display: flex;
+    
+    gap: 10px;
+}
+
+.bon-1-1-1 .info span{
+    color: #FFAE08;
+
+}
+
+.bon-1-1-1 .info2 span{
+    color: #90846D;
+
 }
 
 /*************part*************/
