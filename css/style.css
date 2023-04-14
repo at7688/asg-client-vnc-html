@@ -175,6 +175,13 @@ a:hover {
     border-radius: 6px;
 }
 
+.logininput {
+    width: 330px;
+    height: 50px;
+    background: #F7F8F9;
+    border-radius: 6px;
+}
+
 .login-select {
     height: 50px;
     background: #F7F8F9;
@@ -184,7 +191,7 @@ a:hover {
     padding: 0 6px;
 }
 
-.btn-black {
+.btn-black,.btn-black:hover,.btn-black:active {
     color: #fff;
     font-size: 16px;
     height: 47px;
@@ -255,6 +262,10 @@ a:hover {
     justify-content: center;
 }
 
+.btn-login:hover,.btn-login:active,.btn-login:focus {
+    color: white;
+}
+
 .btx-white {
     color: white !important;
 }
@@ -284,7 +295,7 @@ a:hover {
     right: 16px;
 }
 
-.ps-ck {
+.ps-ck,.ps-ck:hover {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -486,24 +497,24 @@ a:hover {
     background-repeat: no-repeat;
 }
 
-.user-a2 a .us-icon1 {
+.us-icon1 {
     background-image: url(../images/icon/usericon1.svg);
 
 }
 
-.user-a2 a .us-icon2 {
+.us-icon2 {
     background-image: url(../images/icon/usericon2.svg);
 }
 
-.user-a2 a .us-icon3 {
+.us-icon3 {
     background-image: url(../images/icon/usericon3.svg);
 }
 
-.user-a2 a .us-icon4 {
+.us-icon4 {
     background-image: url(../images/icon/usericon4.svg);
 }
 
-.user-a2 a .us-icon5 {
+.us-icon5 {
     background-image: url(../images/icon/usericon5.svg);
 }
 
@@ -561,7 +572,7 @@ a:hover {
     background-repeat: no-repeat;
 }
 
-.game-link .gl-icon1 {
+.gl-icon1 {
     background-image: url(../images/icon/gl-icon1.svg);
 }
 
@@ -569,7 +580,7 @@ a:hover {
     background-image: url(../images/icon/gl-icon1-2.svg);
 }
 
-.game-link .gl-icon2 {
+.gl-icon2 {
     background-image: url(../images/icon/gl-icon2.svg);
 }
 
@@ -577,7 +588,7 @@ a:hover {
     background-image: url(../images/icon/gl-icon2-2.svg);
 }
 
-.game-link .gl-icon3 {
+.gl-icon3 {
     background-image: url(../images/icon/gl-icon3.svg);
 }
 
@@ -585,7 +596,7 @@ a:hover {
     background-image: url(../images/icon/gl-icon3-2.svg);
 }
 
-.game-link .gl-icon4 {
+.gl-icon4 {
     background-image: url(../images/icon/gl-icon4.svg);
 }
 
@@ -593,7 +604,7 @@ a:hover {
     background-image: url(../images/icon/gl-icon4-2.svg);
 }
 
-.game-link .gl-icon5 {
+.gl-icon5 {
     background-image: url(../images/icon/gl-icon5.svg);
 }
 
@@ -601,7 +612,7 @@ a:hover {
     background-image: url(../images/icon/gl-icon5-2.svg);
 }
 
-.game-link .gl-icon6 {
+.gl-icon6 {
     background-image: url(../images/icon/gl-icon6.png);
 }
 
@@ -609,7 +620,7 @@ a:hover {
     background-image: url(../images/icon/gl-icon6-2.png);
 }
 
-.game-link .gl-icon7 {
+.gl-icon7 {
     background-image: url(../images/icon/gl-icon7.svg);
 }
 
@@ -617,7 +628,7 @@ a:hover {
     background-image: url(../images/icon/gl-icon7-2.svg);
 }
 
-.game-link .gl-icon8 {
+.gl-icon8 {
     background-image: url(../images/icon/gl-icon8.svg);
 }
 
@@ -827,7 +838,7 @@ a:hover {
 }
 
 
-.footer a .ft-icon1 {
+.ft-icon1 {
     background-image: url(../images/icon/ft-icon1.svg);
 }
 
@@ -835,7 +846,7 @@ a:hover {
     background-image: url(../images/icon/ft-icon1-2.svg);
 }
 
-.footer a .ft-icon2 {
+.ft-icon2 {
     background-image: url(../images/icon/ft-icon2.svg);
 }
 
@@ -843,7 +854,7 @@ a:hover {
     background-image: url(../images/icon/ft-icon2-2.svg);
 }
 
-.footer a .ft-icon3 {
+.ft-icon3 {
     background-image: url(../images/icon/ft-icon3.svg);
 }
 
@@ -851,7 +862,7 @@ a:hover {
     background-image: url(../images/icon/ft-icon3-2.svg);
 }
 
-.footer a .ft-icon4 {
+.ft-icon4 {
     background-image: url(../images/icon/ft-icon4.svg);
 }
 
@@ -859,7 +870,7 @@ a:hover {
     background-image: url(../images/icon/ft-icon4-2.svg);
 }
 
-.footer a .ft-icon5 {
+.ft-icon5 {
     background-image: url(../images/icon/ft-icon5.svg);
 }
 
@@ -2983,7 +2994,7 @@ a:hover {
     color: white;
 }
 
-.pro-2-1 .pro-2-1-1 a.go {
+.pro-2-1 .pro-2-1-1 .go {
     color: white;
     font-size: 12px;
     padding: 4px 12px;

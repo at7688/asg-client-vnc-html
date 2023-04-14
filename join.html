@@ -49,13 +49,21 @@
                     </div>
 
                     <div class="form-group position-relative">
-                        <input type="text" class="form-control logininput" id="" placeholder="請輸入您的帳號">
+                        <input type="text" class="form-control logininput" id="" placeholder="請輸入您的帳號" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
                         <a class="ps-ck position-absolute" href="">驗證帳號</a>
+                       
                     </div>
 
                     <div class="form-group position-relative">
                         <input type="password" class="form-control logininput" id="" placeholder="會員密碼 6~20位數字/字母/組合">
                         <a class="ps-sh position-absolute" href=""><img src="./images/icon/Hide.svg" alt=""></a>
+                    </div>
+
+                    <div class="form-group position-relative">
+                        <input type="password" class="form-control logininput is-invalid" id="" placeholder="會員密碼 6~20位數字/字母/組合">
+                        <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                            必填欄位.
+                        </div>
                     </div>
 
                     <div class="form-group position-relative">
@@ -73,7 +81,7 @@
                     </div>
 
                     <div class="form-group form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <input type="checkbox" class="form-check-input is-invalid" id="exampleCheck1">
                         <label class="form-check-label" for="exampleCheck1">我已年滿18歲並同意相關規範及<a class="btx-blue" href="">開戶協議</a></label>
                         
                     </div>
