@@ -1443,7 +1443,7 @@ a:hover {
     position: absolute;
     width: 270px;
     height: 22px;
-    left: calc(100% - 307px);
+    left: calc(50% - 135px);
     bottom: -10px;
     /* top: 503px; */
     background: #515777;
@@ -2758,6 +2758,7 @@ a:hover {
 
 .rank-box {
     position: relative;
+    padding-bottom: 20px;
 }
 
 .rank-box .w1 {
@@ -2859,6 +2860,8 @@ a:hover {
     align-items: flex-start;
     justify-content: space-between;
 }
+
+
 
 .rank-3-1 {
     height: auto;
@@ -2988,6 +2991,7 @@ a:hover {
     justify-content: space-between;
     align-items: center;
     border-radius: 0 0 15px 15px;
+    position: relative;
 }
 
 .pro-2-1 .pro-2-1-1 a {
@@ -3012,14 +3016,11 @@ a:hover {
     position: absolute;
     width: 270px;
     height: 22px;
-    left: calc(100% - 307px);
     bottom: -10px;
-    /* top: 503px; */
-    background: #515777;
-    filter: blur(10px);
     background: #515777;
     filter: blur(10px);
     z-index: -1;
+    left: calc(50% - 135px);
 }
 
 .pro-cont {
@@ -3284,7 +3285,9 @@ a:hover {
 }
 
 .bon-1-1 .state1 img,
-.bon-1-1 .state2 img {
+.bon-1-1 .state2 img,
+.bon-1-1 .state6 img,
+.bon-1-1 .state7 img {
     width: 30px;
 }
 
@@ -3319,6 +3322,54 @@ a:hover {
 .bon-1-1 .state5 {
     font-size: medium;
     color: #29BE5C;
+    width: 20%;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    background: #FAFAFA;
+    border-radius: 6px;
+
+}
+
+.bon-1-1 .state6 {
+    color: #596898;
+    font-size: medium;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.bon-1-1 .state7 {
+    font-size: medium;
+    color: #FFA02E;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.bon-1-1 .state8 {
+    font-size: medium;
+    color: #FF6D6D;
+    width: 20%;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    background: #FAFAFA;
+    border-radius: 6px;
+
+}
+
+.bon-1-1 .state9 {
+    font-size: medium;
+    color: #515777;
     width: 20%;
     padding: 4px;
     display: flex;
