@@ -1661,6 +1661,7 @@ a:hover {
 
 .wallet2 {
     margin: 0 auto;
+    margin-bottom: 20px;
     display: flex;
     padding: 20px;
     gap: 20px;
@@ -1715,6 +1716,10 @@ a:hover {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 2%;
+}
+
+.wallet2-2 .fix {
+    color: #B56F38;
 }
 
 .wallet2-2>div {
