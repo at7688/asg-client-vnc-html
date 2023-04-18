@@ -2845,8 +2845,52 @@ a:hover {
     padding: 2px 6px;
     width: 41px;
     margin: 0 auto;
-    background: linear-gradient(54.97deg, #90846D 54.04%, #ECDCBB 93.17%);
+    background: linear-gradient(54.97deg, #335184 54.04%, #6B8FC7 93.17%);
+    border: 1px solid #a1c5ff;
+    border-radius: 4px
+}
+.level2 {
+    color: white;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 2px 6px;
+    width: 41px;
+    margin: 0 auto;
+    background: linear-gradient(54.97deg, #956740 54.04%, #F1AA6D 93.17%);
+    border: 1px solid #F1AA6D;
+    border-radius: 4px
+}
+.level3 {
+    color: white;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 2px 6px;
+    width: 41px;
+    margin: 0 auto;
+    background: linear-gradient(54.97deg, #87782d 54.04%, #ECDCBB 93.17%);
     border: 1px solid #ECDCBB;
+    border-radius: 4px
+}
+.level4 {
+    color: white;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 2px 6px;
+    width: 41px;
+    margin: 0 auto;
+    background: linear-gradient(54.97deg, #95294f 54.04%, #BF3667 93.17%);
+    border: 1px solid #BF3667;
+    border-radius: 4px
+}
+.level5 {
+    color: white;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 2px 6px;
+    width: 41px;
+    margin: 0 auto;
+    background: linear-gradient(54.97deg, #9a2a82 54.04%, #D73DB5 93.17%);
+    border: 1px solid #D73DB5;
     border-radius: 4px
 }
 
