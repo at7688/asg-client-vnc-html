@@ -170,18 +170,15 @@ a:hover {
     gap: 15px;
 }
 
-.logininput {
+.logininput,.passinput {
     width: 330px;
     height: 50px;
     background: #F7F8F9;
     border-radius: 6px;
 }
 
-.logininput {
-    width: 330px;
-    height: 50px;
-    background: #F7F8F9;
-    border-radius: 6px;
+.passinput.is-invalid {
+    background-position: right calc(2.5em + 0.1875rem) center;
 }
 
 .login-select {
@@ -293,7 +290,7 @@ a:hover {
 }
 
 .ps-sh {
-    top: 14px;
+    top: 12px;
     right: 16px;
 }
 
