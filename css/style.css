@@ -710,15 +710,14 @@ a:hover {
 
 .game-play .title {
     position: absolute;
-    left: 7.89%;
-    right: 56.42%;
+    left: 7.5%;
     top: 32.2%;
     bottom: 49.01%;
 
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 23px;
 
     color: #535663;
@@ -726,8 +725,7 @@ a:hover {
 
 .game-play .en {
     position: absolute;
-    left: 16.15%;
-    right: 46.15%;
+    left: 15%;
     top: 23.33%;
     bottom: 65.26%;
 
@@ -769,16 +767,14 @@ a:hover {
     color: #FFFFFF;
 
     box-sizing: border-box;
-
+    padding: 10px 20px;
 
     display: flex;
     justify-content: center;
     align-items: center;
 
     position: absolute;
-    left: 7.08%;
-    right: 57.54%;
-    top: 54.67%;
+    left: 4%;
     bottom: 18%;
 
     background: linear-gradient(241.72deg, rgba(83, 86, 99, 0.2) -5%, rgba(181, 203, 255, 0.2) 15.76%, rgba(72, 104, 209, 0.2) 15.76%, rgba(65, 123, 255, 0.2) 57.27%), linear-gradient(180deg, #3181FE 0%, #65A3F1 47.92%, #417FCB 47.93%, #004C98 100%);
@@ -1039,7 +1035,7 @@ a:hover {
     left: 16px;
 }
 
-.headbar .demo {
+.headbar .demo,.headbar .demo:hover,.headbar .demo:active {
     color: white;
     position: absolute;
     right: 16px;
@@ -2189,8 +2185,9 @@ a:hover {
     border-radius: 10px;
 }
 
-.card-2 a,
-.card-2 a:hover {
+.card-2 .add-card,
+.card-2 .add-card:hover,
+.card-2 .add-card:active {
     padding: 15px 20px;
     display: flex;
     flex-direction: column;
@@ -2762,6 +2759,10 @@ a:hover {
 
 /***rank***/
 
+.bg-rk {
+    height: 385px;
+}
+
 .rank-box {
     position: relative;
     padding-bottom: 20px;
@@ -3007,6 +3008,7 @@ a:hover {
 .pro-2 {
     width: 90%;
     margin: 0 auto;
+    padding-bottom: 20px;
 }
 
 .pro-2-1 {
