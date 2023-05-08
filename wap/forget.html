@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <title>威尼斯娛樂城</title>
+    <meta charset="UTF-8">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="images/fav.png">
+    <!-- meta character set -->
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+
+    <link rel="stylesheet" href="./bootstrap5/css/bootstrap.min.css">
+
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css'>
+
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+
+
+<body>
+    <!-- Preloader 
+    <div class="preloader">
+        <div class="loadinglogo">
+            <img src="./images/logo.svg" alt="">
+        </div>
+        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="50" cy="50" r="30" fill="transparent" stroke-width="3px" stroke-dasharray="160" />
+        </svg>
+    </div>-->
+    <div class="loginbg">
+        <div class="bg1"></div>
+        <div class="bg2"></div>
+        <div class="bg3"></div>
+        <div class="bg4"></div>
+    </div>
+    <div class="main">
+        <div class="main-1">
+        </div>
+        <div class="main-2">
+            <div class="login-box">
+                <div class="loginlogo"><img src="./images/logo.png" alt=""></div>
+                <form>
+                    <h4 class="title text-center">忘記密碼</h4>
+
+                    <div class="form-group position-relative">
+                        <input type="text" class="form-control logininput" id="" placeholder="請輸入您的手機">
+                        <a class="ps-ck position-absolute" href="">發送驗證碼</a>
+                    </div>
+
+                    <div class="form-group position-relative">
+                        <input type="password" class="form-control logininput" id="" placeholder="請輸入您的驗證碼">
+                    </div>
+
+                    <div class="form-group position-relative">
+                        <input type="password" class="form-control logininput" id="" placeholder="請輸入您的新密碼">
+                        <a class="ps-sh position-absolute" href=""><img src="./images/icon/show.svg" alt=""></a>
+                    </div>
+
+
+                    <button type="submit" class="w-100 mt-3 btn btn-black">送  出</button>
+                    <div class="form-group form-check">
+                        <a class="float-end m-auto mt-4 btx-black" href="join.html">註冊新帳號</a>
+                        
+                        <a class="float-start m-auto mt-4 btx-black" href="login.html"><i><img
+                            src="./images/icon/back.svg" alt=""></i> 返回登入</a>
+                    </div>
+                 
+                </form>
+            </div>
+
+        </div>
+        <div class="main-3">
+        </div>
+    </div>
+
+</body>
+
+<!-- Modal -->
+<!-- login -->
+<div class="modal fade" id="loginmodal" tabindex="-1" aria-labelledby="loginmodalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered login">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel"><img class="logo" src="images/logo.svg" alt="">會員登入
+                </h5>
+                <button type="button" class="btn icon-delet" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body pt-5 pb-5">
+                <div class="container-fluid">
+                    <div class="row flex-column flex-wrap align-items-center">
+                        <div class="col-6 mb-3">
+                            <div class="input-group flex-nowrap login-input">
+                                <span class="input-group-text" id="user">
+                                    <div class="icon icon-user"></div>
+                                </span>
+                                <input type="text" class="form-control" placeholder="USER ID OR EMAIL"
+                                    aria-label="USER ID OR EMAIL" aria-describedby="user">
+                            </div>
+                        </div>
+                        <div class="col-6 mb-2">
+                            <div class="input-group flex-nowrap login-input">
+                                <span class="input-group-text" id="password">
+                                    <div class="icon icon-psw"></div>
+                                </span>
+                                <input type="password" class="form-control" placeholder="YOUR PASSWORD"
+                                    aria-label="YOUR PASSWORD" aria-describedby="password">
+                            </div>
+                        </div>
+                        <div class="col-6 d-flex justify-content-end mb-3">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="remember">
+                                <label class="form-check-label" for="remember">
+                                    Remember Me
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <a class="btn btn-join p-2 w-100" href="">會員登入</a>
+                            <div class="row pt-2 pb-4">
+                                <div class="col"><a href="">忘記密碼了嗎？</a></div>
+                                <div class="col text-end">新用戶？ <a class="joinlink" href="" data-bs-toggle="modal"
+                                        data-bs-dismiss="modal" data-bs-target="#joinmodal">創建一個帳戶</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- join -->
+<div class="modal fade" id="joinmodal" tabindex="-1" aria-labelledby="joinmodalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered join">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel"><img class="logo" src="images/logo.svg" alt="">會員註冊
+                </h5>
+                <button type="button" class="btn icon-delet" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body pt-5 pb-5">
+                <div class="container-fluid">
+                    <div class="row flex-column flex-wrap align-items-center">
+                        <div class="col-6 mb-3">
+
+                            <label for="username" class="form-label">帳號</label>
+                            <input type="text" class="form-control" id="username" placeholder="請輸入帳號">
+
+                        </div>
+                        <div class="col-6 mb-3">
+
+                            <label for="email" class="form-label">信箱</label>
+                            <input type="text" class="form-control" id="email" placeholder="請輸入信箱">
+
+                        </div>
+                        <div class="col-6 mb-3">
+
+                            <label for="password" class="form-label">密碼</label>
+                            <input type="password" class="form-control" id="password" placeholder="請輸入密碼">
+
+                        </div>
+                        <div class="col-6 mb-3">
+
+                            <label for="password2" class="form-label">確認密碼</label>
+                            <input type="password" class="form-control" id="password2" placeholder="請再確認輸入密碼">
+
+                        </div>
+                        <div class="col-6 d-flex justify-content-start mb-3">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="check">
+                                <label class="form-check-label" for="check">
+                                    在您註冊成爲會員前,請閲讀並同意<a class="servicelink" href="">註冊條款</a>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <a class="btn btn-join p-2 w-100" href="">確定註冊會員</a>
+                            <div class="row pt-2 pb-4">
+                                <div class="col text-center"><a href="" data-bs-toggle="modal" data-bs-dismiss="modal"
+                                        data-bs-target="#loginmodal">會員登入</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- service -->
+<div class="modal fade" id="servicemodal" tabindex="-1" aria-labelledby="servicemodalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable service">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="service-m-title"><span>HELP</span>服務中心</div>
+                <h5 class="modal-title" id="staticBackdropLabel"><img class="logo" src="images/logo.svg" alt=""></h5>
+                <button type="button" class="btn icon-delet" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-0">
+                <div class="container-fluid">
+                    <div class="row justify-content-start">
+                        <div class="col-3 d-flex p-0">
+                            <div class="s-list pt-3 pb-3">
+                                <ul>
+                                    <li><a href="">我的帳號</a></li>
+                                    <li class=""><a href="">登錄問題</a></li>
+                                    <li class=""><a href="">存款</a></li>
+                                    <li class=""><a href="">支付方式</a></li>
+                                    <li class="active"><a href="">網站協議</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-9 p-0">
+                            <div class="s-con-title">
+                                網站協議
+                            </div>
+                            <div class="s-con">
+                                <div class="accordion" id="accordionservice">
+                                    <div class="accordion-item mb-2">
+                                        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                            <button class="accordion-button service-button" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne"
+                                                aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                                使用者使用規則
+                                            </button>
+                                        </h2>
+                                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                            aria-labelledby="panelsStayOpen-headingOne">
+                                            <div class="accordion-body">
+                                                《使用者協定》（以下簡稱“本協定”）是您（或稱“用戶”，指註冊、登入、使用、瀏覽本服務的個人或組織）與及其關係企業（以下簡稱“小米”或“本公司”）及其運營合作單位（以下稱“合作單位”）之間關於網站，簡稱“本網站”)與產品、程式及服務（包括但不限於米聊與MIUI）所訂立的協議。
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item mb-2">
+                                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                            <button class="accordion-button service-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo"
+                                                aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                                使用者內容
+                                            </button>
+                                        </h2>
+                                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                                            aria-labelledby="panelsStayOpen-headingTwo">
+                                            <div class="accordion-body">
+                                                1、使用者內容是指該使用者下載、發佈或以其他方式使用本網站與產品、程式及服務時產生的所有內容（例如：您的資訊、圖片、音樂或其他內容）；
+                                                您是您的使用者內容唯一的責任人，您將承擔因您的使用者內容披露而導致的您的個人身份或其他第三人包括任何協力廠商被辨識的風險。
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item mb-2">
+                                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                            <button class="accordion-button service-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree"
+                                                aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                                隱私政策
+                                            </button>
+                                        </h2>
+                                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                                            aria-labelledby="panelsStayOpen-headingThree">
+                                            <div class="accordion-body">
+                                                隱私政策
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+<script src="./bootstrap5/js/bootstrap.min.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js'></script>
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 4,
+        spaceBetween: 10,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+
+    /***cookiealert****/
+    (function () {
+        "use strict";
+
+        var cookieAlert = document.querySelector(".cookiealert");
+        var acceptCookies = document.querySelector(".acceptcookies");
+
+        if (!cookieAlert) {
+            return;
+        }
+
+        cookieAlert.offsetHeight; // Force browser to trigger reflow (https://stackoverflow.com/a/39451131)
+
+        // Show the alert if we cant find the "acceptCookies" cookie
+        if (!getCookie("acceptCookies")) {
+            cookieAlert.classList.add("show");
+        }
+
+        // When clicking on the agree button, create a 1 year
+        // cookie to remember user's choice and close the banner
+        acceptCookies.addEventListener("click", function () {
+            setCookie("acceptCookies", true, 365);
+            cookieAlert.classList.remove("show");
+
+            // dispatch the accept event
+            window.dispatchEvent(new Event("cookieAlertAccept"))
+        });
+
+        // Cookie functions from w3schools
+        function setCookie(cname, cvalue, exdays) {
+            var d = new Date();
+            d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+            var expires = "expires=" + d.toUTCString();
+            document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+        }
+
+        function getCookie(cname) {
+            var name = cname + "=";
+            var decodedCookie = decodeURIComponent(document.cookie);
+            var ca = decodedCookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) === ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(name) === 0) {
+                    return c.substring(name.length, c.length);
+                }
+            }
+            return "";
+        }
+    })();
+
+    /* ==========================================================================
+   When document is loading, do
+   ========================================================================== */
+
+    $(window).on('load', function () {
+        if ($('.preloader').length) {
+            $('.preloader').delay(1000).fadeOut(500);
+        }
+    });	
+</script>
+
+</html>

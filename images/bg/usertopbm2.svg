@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 428 126" style="enable-background:new 0 0 428 126;" xml:space="preserve">
+	 viewBox="0 0 428 50" style="enable-background:new 0 0 428 50;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:url(#SVGID_1_);}
 </style>
-<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="214" y1="-642.1102" x2="214" y2="-768.1102" gradientTransform="matrix(1 0 0 -1 0 -642.1102)">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="214" y1="1484" x2="214" y2="1533.9731" gradientTransform="matrix(1 0 0 1 0 -1484)">
 	<stop  offset="0" style="stop-color:#FFFFFF"/>
-	<stop  offset="1" style="stop-color:#F2F8FF"/>
+	<stop  offset="0.4767" style="stop-color:#F2F7FF"/>
 </linearGradient>
-<path class="st0" d="M0,1c0,0,93,12,214,12S428,0,428,0v126H0V1z"/>
+<path class="st0" d="M0,1c0,0,93,12,214,12S428,0,428,0v50H0V1z"/>
 </svg>

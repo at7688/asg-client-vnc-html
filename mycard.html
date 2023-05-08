@@ -9,219 +9,731 @@
     <!-- meta character set -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
-    <link rel="stylesheet" href="./bootstrap5/css/bootstrap.min.css">
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./bootstrap-5.3/css/bootstrap.min.css">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css'>
     <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
-    <!-- Preloader 
-    <div class="preloader">
-        <div class="loadinglogo">
-            <img src="./images/logo.svg" alt="">
-        </div>
-        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="50" cy="50" r="30" fill="transparent" stroke-width="3px" stroke-dasharray="160" />
-        </svg>
-    </div>-->
-    <div class="main">
-        <div class="bg-wt bg-rd">
-            <div class="bg5"></div>
-        </div>
-        <div class="main-1">
-            <div class="headbar wtbg fixed-top">
-                <a class="back" href="user.html">
-                    <img src="./images/icon/back.svg" alt="">
-                </a>
-                <div class="title">卡片管理</div>
-                <a class="demo" href="" data-bs-toggle="offcanvas" data-bs-target="#demo">查看範例</a>
+    <div class="headerspace"></div>
+    <div class="header fixed-top">
+        <div class="top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <div class="marquee">
+                            <div class="m-icon"><img class="img-fluid" src="./images/marquee.png" alt=""></div>
+                            <marquee class="m-text"><a href="" type="button" data-bs-toggle="modal"
+                                    data-bs-target="#news">帶給您更好的體驗，更多最新內容等您發現，如有問題請聯系7*24小時在線客服咨詢。</a></marquee>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="btn-group float-end">
+                            <button class="user-top dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <div class="wallet1-1-user">
+                                    <div><img src="./images/icon/user-m-icon1.svg" alt="">2,000,000.00 $ 主帳號</div>
+                                </div>
+                                <div class="title">Hi~acd3456 <div class="level">VIP1</div>
+                                </div>
+                                <!-- div class="user-accont">主帳號  : 0</div -->
+
+                            </button>
+                            <ul class="dropdown-menu user-top-menu dropdown-menu-end">
+                                <div class="wallettop gap-2">
+                                    <div class="d-flex flex-row justify-content-between">
+
+                                        <div class="wallet1-2">
+                                            <a href="deposit.html">
+                                                <img src="./images/icon/moneyBag.svg" alt=""> 儲值
+                                            </a>
+                                            <a href="deposit2.html">
+                                                <img src="./images/icon/moneyBag2.svg" alt=""> 提領
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <li><a href="user-wallet.html" class="dropdown-item"><img
+                                            src="./images/icon/user-m-icon1-2.svg" alt="">我的錢包</a></li>
+                                <li><a href="bet-history.html" class="dropdown-item"><img src="./images/icon/usericon2-2.svg"
+                                            alt="">我的帳務</a></li>
+                                <li><a href="records.html" class="dropdown-item"><img
+                                            src="./images/icon/user-m-icon2-2.svg" alt="">交易紀錄</a></li>
+                                <li><a href="mycard.html" class="dropdown-item"><img
+                                            src="./images/icon/user-m-icon3-2.svg" alt="">卡片管理</a></li>
+                                <li><a href="account.html" class="dropdown-item"><img
+                                            src="./images/icon/user-m-icon4-2.svg" alt="">帳戶管理</a></li>
+                                <li><a href="" class="dropdown-item"><img src="./images/icon/ft-icon2.svg"
+                                            alt="">紅利禮包</a></li>
+                                <li><a href="news.html" class="dropdown-item"><img src="./images/icon/us-m-li1.svg"
+                                            alt="">消息中心</a></li>
+                                <li><a href="help.html" class="dropdown-item"><img src="./images/icon/us-m-li2.svg"
+                                            alt="">幫助中心</a></li>
+                                <li><a href="about.html" class="dropdown-item"><img src="./images/icon/us-m-li3.svg"
+                                            alt="">關於我們</a></li>
+                                <li><a href="servicetime.html" class="dropdown-item"><img
+                                            src="./images/icon/us-m-li5.svg" alt="">維護時間</a></li>
+                                <li><a href="" class="dropdown-item"><img src="./images/icon/logout.svg" alt="">安全登出</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="main-4">
-            <div class="card-box">
-                <div class="card-1">
-                    <div class="card-1-1">
-                        <div class="card-onoff">
-                            <div class="form-check form-switch">
-                                <input class="form-check-input" type="checkbox" role="switch"
-                                    id="flexSwitchCheckChecked" checked>
+        <div class="menu-box">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <a class="navbar-brand link link-default logo" href="index.html">
+                                <img src="./images/logo.png">
+                            </a>
+                            <div class="collapse navbar-collapse justify-content-center align-items-center"
+                                id="navbarNavAltMarkup">
+                                <div class="navbar-nav header-menu">
+                                    <li class="">
+                                        <a class="nav-item menu-item nav-link" href="index.html">首頁<span>HOME</span></a>
+                                    </li>
+                                    <li class="">
+                                        <a class="nav-item menu-item nav-link" href="live.html">真人<span>LIVE</span></a>
+                                        <div class="submenu live">
+                                            <a href="" class="nav-column">
+                                                <div class="game-en">LIVE GAME</div>
+                                                <div class="game-img"><img class="img-fluid"
+                                                        src="./images/gamepic/game-ab.png" alt=""></div>
+                                                <div class="game-logo"><img src="./images/gamelogo/logo_ab.png" alt="">
+                                                </div>
+                                                <div class="game-name">歐博真人</div>
+                                            </a>
+                                            <a href="" class="nav-column">
+                                                <div class="game-en">LIVE GAME</div>
+                                                <div class="game-img"><img class="img-fluid"
+                                                        src="./images/gamepic/game-dg.png" alt=""></div>
+                                                <div class="game-logo"><img src="./images/gamelogo/logo_dg.png" alt="">
+                                                </div>
+                                                <div class="game-name">DG真人</div>
+                                            </a>
+                                            <a href="" class="nav-column">
+                                                <div class="game-en">LIVE GAME</div>
+                                                <div class="game-img"><img class="img-fluid"
+                                                        src="./images/gamepic/game-wm.png" alt=""></div>
+                                                <div class="game-logo"><img src="./images/gamelogo/logo_wm.png" alt="">
+                                                </div>
+                                                <div class="game-name">WM真人</div>
+                                            </a>
+                                            <a href="" class="nav-column">
+                                                <div class="game-en">LIVE GAME</div>
+                                                <div class="game-img"><img class="img-fluid"
+                                                        src="./images/gamepic/game-obl.png" alt=""></div>
+                                                <div class="game-logo"><img src="./images/gamelogo/logo_obl.png" alt="">
+                                                </div>
+                                                <div class="game-name">PM真人</div>
+                                            </a>
+                                            <a href="" class="nav-column">
+                                                <div class="game-en">LIVE GAME</div>
+                                                <div class="game-img"><img class="img-fluid"
+                                                        src="./images/gamepic/game-og.png" alt=""></div>
+                                                <div class="game-logo"><img src="./images/gamelogo/logo_og.png" alt="">
+                                                </div>
+                                                <div class="game-name">OG真人</div>
+                                            </a>
+                                            <a href="" class="nav-column">
+                                                <div class="game-en">LIVE GAME</div>
+                                                <div class="game-img"><img class="img-fluid"
+                                                        src="./images/gamepic/game-sa.png" alt=""></div>
+                                                <div class="game-logo"><img src="./images/gamelogo/logo_sa.png" alt="">
+                                                </div>
+                                                <div class="game-name">SA真人</div>
+                                            </a>
+                                            <a href="" class="nav-column">
+                                                <div class="game-en">MORE</div>
+                                                <div class="m-auuto mt-5 mb-3"><img class="w-75" src="./images/logo.svg"
+                                                        alt=""></div>
+                                                <div class="btn-blue w-75 m-auto">更多遊戲</div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a class="nav-item menu-item nav-link" href="slot.html">電子<span>SLOT</span></a>
+                                        <div class="submenu slot">
+                                            <a href="" class="nav-column">
+                                                <div class="game-en">slot GAME</div>
+                                                <div class="game-img"><img class="img-fluid"
+                                                        src="./images/gamepic/game-obsl.png" alt=""></div>
+                                                <div class="game-logo"><img src="./images/gamelogo/logo_obsl.png"
+                                                        alt="">
+                                                </div>
+                                                <div class="game-name">PM電子</div>
+                                            </a>
+                                            <a href="" class="nav-column">
+                                                <div class="game-en">slot GAME</div>
+                                                <div class="game-img"><img class="img-fluid"
+                                                        src="./images/gamepic/game-bng.png" alt=""></div>
+                                                <div class="game-logo"><img src="./images/gamelogo/logo_bng.png" alt="">
+                                                </div>
+                                                <div class="game-name">BNG電子</div>
+                                            </a>
+                                            <a href="" class="nav-column">
+                                                <div class="game-en">slot GAME</div>
+                                                <div class="game-img"><img class="img-fluid"
+                                                        src="./images/gamepic/game-bt.png" alt=""></div>
+                                                <div class="game-logo"><img src="./images/gamelogo/logo_bt.png" alt="">
+                                                </div>
+                                                <div class="game-name">BT電子</div>
+                                            </a>
+                                            <a href="" class="nav-column">
+                                                <div class="game-en">slot GAME</div>
+                                                <div class="game-img"><img class="img-fluid"
+                                                        src="./images/gamepic/game-bwin.png" alt=""></div>
+                                                <div class="game-logo"><img src="./images/gamelogo/logo_bwin.png"
+                                                        alt="">
+                                                </div>
+                                                <div class="game-name">BWIN電子</div>
+                                            </a>
+                                            <a href="" class="nav-column">
+                                                <div class="game-en">slot GAME</div>
+                                                <div class="game-img"><img class="img-fluid"
+                                                        src="./images/gamepic/game-zg.png" alt=""></div>
+                                                <div class="game-logo"><img src="./images/gamelogo/logo_zg.png" alt="">
+                                                </div>
+                                                <div class="game-name">ZG電子</div>
+                                            </a>
+                                            <a href="" class="nav-column">
+                                                <div class="game-en">slot GAME</div>
+                                                <div class="game-img"><img class="img-fluid"
+                                                        src="./images/gamepic/game-rsg.png" alt=""></div>
+                                                <div class="game-logo"><img src="./images/gamelogo/logo_rsg.png" alt="">
+                                                </div>
+                                                <div class="game-name">RSG電子</div>
+                                            </a>
+
+                                        </div>
+                                    </li>
+                                    <li class=""><a class="nav-item menu-item nav-link"
+                                            href="sport.html">體育<span>SPORT</span></a>
+                                        <div class="submenu sport">
+                                            <a href="" class="nav-column">
+                                                <div class="game-en">SPORT GAME</div>
+                                                <div class="game-img"><img class="img-fluid"
+                                                        src="./images/gamepic/game-wgs.png" alt=""></div>
+                                                <div class="game-logo"><img src="./images/gamelogo/logo_wgs.png" alt="">
+                                                </div>
+                                                <div class="game-name">WG體育</div>
+                                            </a>
+                                            <a href="" class="nav-column">
+                                                <div class="game-en">SPORT GAME</div>
+                                                <div class="game-img"><img class="img-fluid"
+                                                        src="./images/gamepic/game-fb.png" alt=""></div>
+                                                <div class="game-logo"><img src="./images/gamelogo/logo_fb.png" alt="">
+                                                </div>
+                                                <div class="game-name">FB體育</div>
+                                            </a>
+                                            <a href="" class="nav-column">
+                                                <div class="game-en">SPORT GAME</div>
+                                                <div class="game-img"><img class="img-fluid"
+                                                        src="./images/gamepic/game-obs.png" alt=""></div>
+                                                <div class="game-logo"><img src="./images/gamelogo/logo_obs.png" alt="">
+                                                </div>
+                                                <div class="game-name">PM體育</div>
+                                            </a>
+                                            <a href="" class="nav-column">
+                                                <div class="game-en">SPORT GAME</div>
+                                                <div class="game-img"><img class="img-fluid"
+                                                        src="./images/gamepic/game-pin.png" alt=""></div>
+                                                <div class="game-logo"><img src="./images/gamelogo/logo_pin.png" alt="">
+                                                </div>
+                                                <div class="game-name">平博體育</div>
+                                            </a>
+                                            <a href="" class="nav-column">
+                                                <div class="game-en">SPORT GAME</div>
+                                                <div class="game-img"><img class="img-fluid"
+                                                        src="./images/gamepic/game-upgs.png" alt=""></div>
+                                                <div class="game-logo"><img src="./images/gamelogo/logo_upgs.png"
+                                                        alt="">
+                                                </div>
+                                                <div class="game-name">SUPER體育</div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a class="nav-item menu-item nav-link"
+                                            href="lottery.html">彩球<span>LOTTERY</span></a>
+                                        <div class="submenu lottery">
+                                            <a href="" class="nav-column">
+                                                <div class="game-en">lottery GAME</div>
+                                                <div class="game-img"><img class="img-fluid"
+                                                        src="./images/gamepic/game-lee.png" alt=""></div>
+                                                <div class="game-logo"><img src="./images/gamelogo/logo_lee.png" alt="">
+                                                </div>
+                                                <div class="game-name">大立彩票</div>
+                                            </a>
+                                            <a href="" class="nav-column">
+                                                <div class="game-en">lottery GAME</div>
+                                                <div class="game-img"><img class="img-fluid"
+                                                        src="./images/gamepic/game-obb.png" alt=""></div>
+                                                <div class="game-logo"><img src="./images/gamelogo/logo_obb.png" alt="">
+                                                </div>
+                                                <div class="game-name">PM彩票</div>
+                                            </a>
+                                            <a href="" class="nav-column">
+                                                <div class="game-en">lottery GAME</div>
+                                                <div class="game-img"><img class="img-fluid"
+                                                        src="./images/gamepic/game-sba.png" alt=""></div>
+                                                <div class="game-logo"><img src="./images/gamelogo/logo_sba.png" alt="">
+                                                </div>
+                                                <div class="game-name">SUPER彩票</div>
+                                            </a>
+                                            <a href="" class="nav-column">
+                                                <div class="game-en">lottery GAME</div>
+                                                <div class="game-img"><img class="img-fluid"
+                                                        src="./images/gamepic/game-wgba.png" alt=""></div>
+                                                <div class="game-logo"><img src="./images/gamelogo/logo_wgba.png"
+                                                        alt="">
+                                                </div>
+                                                <div class="game-name">WG彩票</div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a class="nav-item menu-item nav-link"
+                                            href="fish.html">捕魚<span>FISHINH</span></a>
+                                        <div class="submenu fish">
+                                            <a href="" class="nav-column">
+                                                <div class="game-en">fish GAME</div>
+                                                <div class="game-img"><img class="img-fluid"
+                                                        src="./images/gamepic/game-boyafh.png" alt=""></div>
+                                                <div class="game-logo"><img src="./images/gamelogo/logo_byfh.png"
+                                                        alt="">
+                                                </div>
+                                                <div class="game-name">博亞捕魚</div>
+                                            </a>
+                                            <a href="" class="nav-column">
+                                                <div class="game-en">fish GAME</div>
+                                                <div class="game-img"><img class="img-fluid"
+                                                        src="./images/gamepic/game-obfh.png" alt=""></div>
+                                                <div class="game-logo"><img src="./images/gamelogo/logo_obfh.png"
+                                                        alt="">
+                                                </div>
+                                                <div class="game-name">PM捕魚</div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a class="nav-item menu-item nav-link"
+                                            href="chess.html">棋牌<span>CHESS</span></a>
+                                        <div class="submenu chess">
+                                            <a href="" class="nav-column">
+                                                <div class="game-en">chess GAME</div>
+                                                <div class="game-img"><img class="img-fluid"
+                                                        src="./images/gamepic/game-boyach.png" alt=""></div>
+                                                <div class="game-logo"><img src="./images/gamelogo/logo_bych.png"
+                                                        alt="">
+                                                </div>
+                                                <div class="game-name">博亞棋牌</div>
+                                            </a>
+                                            <a href="" class="nav-column">
+                                                <div class="game-en">chess GAME</div>
+                                                <div class="game-img"><img class="img-fluid"
+                                                        src="./images/gamepic/game-tz.png" alt=""></div>
+                                                <div class="game-logo"><img src="./images/gamelogo/logo_tz.png" alt="">
+                                                </div>
+                                                <div class="game-name">TZ棋牌</div>
+                                            </a>
+                                            <a href="" class="nav-column">
+                                                <div class="game-en">chess GAME</div>
+                                                <div class="game-img"><img class="img-fluid"
+                                                        src="./images/gamepic/game-obch.png" alt=""></div>
+                                                <div class="game-logo"><img src="./images/gamelogo/logo_obch.png"
+                                                        alt="">
+                                                </div>
+                                                <div class="game-name">PM棋牌</div>
+                                            </a>
+                                            <a href="" class="nav-column">
+                                                <div class="game-en">chess GAME</div>
+                                                <div class="game-img"><img class="img-fluid"
+                                                        src="./images/gamepic/game-gr.png" alt=""></div>
+                                                <div class="game-logo"><img src="./images/gamelogo/logo_gr.png" alt="">
+                                                </div>
+                                                <div class="game-name">好路棋牌</div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a class="nav-item menu-item nav-link"
+                                            href="esports.html">電競<span>ESPORT</span></a>
+                                        <div class="submenu esports">
+                                            <a href="" class="nav-column">
+                                                <div class="game-en">ESPORTs GAME</div>
+                                                <div class="game-img"><img class="img-fluid"
+                                                        src="./images/gamepic/game-obvg.png" alt=""></div>
+                                                <div class="game-logo"><img src="./images/gamelogo/logo_obvg.png"
+                                                        alt="">
+                                                </div>
+                                                <div class="game-name">PM電競</div>
+                                            </a>
+                                            <a href="" class="nav-column">
+                                                <div class="game-en">ESPORTs GAME</div>
+                                                <div class="game-img"><img class="img-fluid"
+                                                        src="./images/gamepic/game-avia.png" alt=""></div>
+                                                <div class="game-logo"><img src="./images/gamelogo/logo_avia.png"
+                                                        alt="">
+                                                </div>
+                                                <div class="game-name">泛亞電競</div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class=""><a class="nav-item menu-item nav-link"
+                                            href="promotion.html">優惠活動<span>PROMOTION</span></a>
+                                    <li><a class="nav-item menu-item nav-link"
+                                            href="partner.html">合營<span>WIN-WIN</span></a></li>
+                                    </li>
+                                </div>
                             </div>
-                        </div>
-                        <div class="title">988 台北木柵農會</div>
-                        <div class="card-ac">銀行帳號</div>
-                        <div class="card-number">1022 **** **** ****</div>
-                        <div class="card-ac">銀行戶名</div>
-                        <div class="card-number">1022 **** **** ****</div>
+                        </nav>
                     </div>
-                    <a href="" class="card-delet">撤銷</a>
-                    <div class="card-tag">驗證通過</div>
-                    <img class="w-100" src="./images/bg/card.svg" alt="">
-                </div>
-                <div class="card-1">
-                    <div class="card-1-1">
-                        <div class="card-onoff">
-                            <div class="form-check form-switch">
-                                <input class="form-check-input" type="checkbox" role="switch"
-                                    id="flexSwitchCheckChecked" checked>
-                            </div>
-                        </div>
-                        <div class="title">988 台北木柵農會</div>
-                        <div class="card-ac">銀行帳號</div>
-                        <div class="card-number">1022 **** **** ****</div>
-                        <div class="card-ac">銀行戶名</div>
-                        <div class="card-number">1022 **** **** ****</div>
-                    </div>
-                    <a href="" class="card-delet">撤銷</a>
-                    <div class="card-tag">驗證通過</div>
-                    <img class="w-100" src="./images/bg/card.svg" alt="">
-                </div>
-                <div class="card-2">
-                    <a class="add-card" href="" data-bs-toggle="offcanvas" data-bs-target="#add"><img
-                            src="./images/icon/add.svg" alt="">添加銀行卡</a>
                 </div>
             </div>
         </div>
     </div>
+    <!-- Swiper -->
+    <section class="user-section">
+        <div class="container">
+            <div class="row justify-content-center user-bgbox">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <div class="user-infobox">
+                                <div class="user-info">
+                                    <div class="user-img">
+                                        <img class="img-fluid" src="./images/user/userimg.png" alt="">
+                                    </div>
+                                    <div class="user-name">
+                                        <div class="title">user-name</div>
+                                    </div>
+                                </div>
+
+                                <div class="subtract">
+                                    <a class="gif" href="bonus.html"><i></i> 紅利禮包</a>
+                                </div>
+
+                                <div class="user-a2">
+                                    <a href="bet-history.html"><i class="us-icon2"></i>帳務</a>
+                                    <a href="ranking.html"><i class="us-icon3"></i>排行</a>
+                                    <a href="movies.html"><i class="us-icon4"></i>影城</a>
+                                    <a href="vip.html"><i class="us-icon5"></i>VIP</a>
+                                </div>
+
+                                <div class="usertopbm">
+                                    <a href="user-wallet.html"><i class="user-m-icon1"></i>我的錢包</a>
+                                    <a href="records.html"><i class="user-m-icon2"></i>交易紀錄</a>
+                                    <a href="mycard.html"><i class="user-m-icon3"></i>卡片管理</a>
+                                    <a href="account.html"><i class="user-m-icon4"></i>帳戶管理</a>
+                                </div>
+
+                                <div class="us-m-list">
+                                    <a href="news.html">
+                                        <div><img src="./images/icon/us-m-li1.svg" alt=""> 消息中心</div>
+                                        <div><img src="./images/icon/more.svg" alt=""></div>
+                                    </a>
+                                    <hr>
+                                    <a href="help.html">
+                                        <div><img src="./images/icon/us-m-li2.svg" alt=""> 幫助中心</div>
+                                        <div><img src="./images/icon/more.svg" alt=""></div>
+                                    </a>
+                                    <hr>
+                                    <a href="">
+                                        <div><img src="./images/icon/us-m-li3.svg" alt=""> 下載APP</div>
+                                        <div><img src="./images/icon/more.svg" alt=""></div>
+                                    </a>
+                                    <hr>
+                                    <a href="about.html">
+                                        <div><img src="./images/icon/us-m-li4.svg" alt=""> 關於我們</div>
+                                        <div><img src="./images/icon/more.svg" alt=""></div>
+                                    </a>
+                                    <hr>
+                                    <a href="servicetime.html">
+                                        <div><img src="./images/icon/us-m-li5.svg" alt=""> 維護時間</div>
+                                        <div><img src="./images/icon/more.svg" alt=""></div>
+                                    </a>
+                                    <hr>
+                                    <a href="pro-records.html">
+                                        <div class="d-flex align-items-center gap-1"><i class="bi w-30px text-center bi-clipboard2-check-fill fs-4"></i> 推廣紀錄</div>
+                                        <div><img src="./images/icon/more.svg" alt=""></div>
+                                    </a>
+                                </div>
+                                <div class="us-m-list">
+                                    <a href="">
+                                        <div><img src="./images/icon/logout.svg" alt=""> 安全登出</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="breadcrumb">
+                                <img src="./images/bg/bg5.svg" alt=""> 卡片管理
+                            </div>
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="card-box">
+                                        <div class="card-1">
+                                            <div class="card-1-1">
+                                                <div class="card-onoff">
+                                                    <div class="form-check form-switch">
+                                                        <input class="form-check-input" type="checkbox" role="switch"
+                                                            id="flexSwitchCheckChecked" checked="">
+                                                    </div>
+                                                </div>
+                                                <div class="title">988 台北木柵農會</div>
+                                                <div class="card-ac">銀行帳號</div>
+                                                <div class="card-number">1022 **** **** ****</div>
+                                                <div class="card-ac">銀行戶名</div>
+                                                <div class="card-number">1022 **** **** ****</div>
+                                            </div>
+                                            <a href="" class="card-delet">撤銷</a>
+                                            <div class="card-tag">驗證通過</div>
+                                            <img class="w-100" src="./images/bg/card.svg" alt="">
+                                        </div>
+                                        <div class="card-1">
+                                            <div class="card-1-1">
+                                                <div class="card-onoff">
+                                                    <div class="form-check form-switch">
+                                                        <input class="form-check-input" type="checkbox" role="switch"
+                                                            id="flexSwitchCheckChecked" checked="">
+                                                    </div>
+                                                </div>
+                                                <div class="title">988 台北木柵農會</div>
+                                                <div class="card-ac">銀行帳號</div>
+                                                <div class="card-number">1022 **** **** ****</div>
+                                                <div class="card-ac">銀行戶名</div>
+                                                <div class="card-number">1022 **** **** ****</div>
+                                            </div>
+                                            <a href="" class="card-delet">撤銷</a>
+                                            <div class="card-tag">驗證通過</div>
+                                            <img class="w-100" src="./images/bg/card.svg" alt="">
+                                        </div>
+                                        <div class="card-1">
+                                            <div class="card-1-1">
+                                                <div class="card-onoff">
+                                                    <div class="form-check form-switch">
+                                                        <input class="form-check-input" type="checkbox" role="switch"
+                                                            id="flexSwitchCheckChecked" checked="">
+                                                    </div>
+                                                </div>
+                                                <div class="title">988 台北木柵農會</div>
+                                                <div class="card-ac">銀行帳號</div>
+                                                <div class="card-number">1022 **** **** ****</div>
+                                                <div class="card-ac">銀行戶名</div>
+                                                <div class="card-number">1022 **** **** ****</div>
+                                            </div>
+                                            <a href="" class="card-delet">撤銷</a>
+                                            <div class="card-tag">驗證通過</div>
+                                            <img class="w-100" src="./images/bg/card.svg" alt="">
+                                        </div>
+                                        <div class="card-2">
+                                            <a class="add-card" href="" data-bs-toggle="modal"
+                                                data-bs-target="#addcard"><img src="./images/icon/add.svg"
+                                                    alt="">添加銀行卡</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <h6 class="demo-title">上傳範例</h6>
+
+                                    <div class="demoinfo">
+                                        <ul>
+                                            <li>請使用與註冊名證相同且有效存摺帳號之頁面</li>
+                                            <li>清晰身分證(需與存摺同名)</li>
+                                            <li>僅供娛樂城認證使用(手寫內容)</li>
+                                        </ul>
+                                    </div>
+                                    <div class="w-100 mt-2 mb-2">
+                                        <img class="img-fluid" src="./images/demopic.png" alt="">
+                                    </div>
+                                    <div class="demoimp">
+                                        <img src="./images/icon/warning.svg" alt="">請注意”認證照片不接受APP後製與馬賽克”
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <div class="footer">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-12 text-center">
+                    <p><img class="img-fluid" src="./images/footerlogo1.png" alt=""></p>
+                    <p><img class="img-fluid" src="./images/footerlogo2.png" alt=""></p>
+                    <div class="f-menu d-flex justify-content-center pt-5">
+                        <a href="help.html">新手幫助</a> | <a href="">聯繫我們</a> | <a
+                            href="partner.html">代理加盟</a> | <a href="">APP下載</a>
+                    </div>
+                    <div class="copyright pt-4">
+                        版權所有 ©2010-2023 保留所有權
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="serbtn"><i class="bi bi-headset fa-2x"></i></button>
+    <button class="linebtn"><i class="bi bi-line fa-2x"></i></button>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="bi bi-arrow-up-circle-fill fs-2"></i></button>
 </body>
-<!-- Offcanvas -->
-<div class="offcanvas offcanvas-bottom mycard-off" id="demo">
-    <div class="offcanvas-header">
-        <h1 class="offcanvas-title">上傳範例</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
-    </div>
-    <div class="offcanvas-body">
-        <div class="demoinfo">
-            <ul>
-                <li>請使用與註冊名證相同且有效存摺帳號之頁面</li>
-                <li>清晰身分證(需與存摺同名)</li>
-                <li>僅供娛樂城認證使用(手寫內容)</li>
-            </ul>
+
+<!-- Modal -->
+
+<div class="modal fade" id="addcard" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header modal-news-header">
+                <h5 class="modal-title">新增銀行卡</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="row align-items-center mb-3">
+                        <div class="col-3">
+                            選擇分行
+                        </div>
+                        <div class="col-9">
+                            <select class="form-select off-select" aria-label="">
+                                <option selected="">請選擇銀行</option>
+                                <option value="1">台灣銀行</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+                    <div class="row align-items-center mb-3">
+                        <div class="col-12">
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">沒有分行</label>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row align-items-center mb-3">
+                        <div class="col-3">
+                            分行名稱
+                        </div>
+                        <div class="col-9">
+                            <div class="form-group position-relative">
+                                <input type="text" class="form-control textinput" id="" placeholder="請輸入">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row align-items-center mb-3">
+                        <div class="col-3">
+                            銀行帳號
+                        </div>
+                        <div class="col-9">
+                            <div class="form-group position-relative">
+                                <input type="text" class="form-control textinput" id="" placeholder="請輸入">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row align-items-center mb-3">
+                        <div class="col-3">
+                            銀行戶名
+                        </div>
+                        <div class="col-9">
+                            <div class="form-group position-relative">
+                                <input type="text" class="form-control textinput" id="" placeholder="請輸入">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row align-items-center mb-3">
+                        <div class="col-12">
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck2">
+                                <label class="form-check-label" for="exampleCheck2">設為預設</label>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row align-items-center mb-4">
+                        <div class="col-3">
+                            上傳檔案
+                        </div>
+                        <div class="col-9">
+                            <div class="form-group position-relative">
+                                <input class="form-control" type="file" id="formFileMultiple" multiple>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="record-2-3 bg-white mt-3">
+                        <div class="title"><img src="./images/icon/danger.svg" alt="">注意事項</div>
+                        <ul>
+                            <li>審核時間約1~3分鐘，可自行查看審核進度； 請確實依照頁面範例填寫資料，避免資料退回重審，浪費您寶貴的時間！ 如有驗證相關問題請洽客服人員！</li>
+                            <li>因網路詐騙手法推陳出新，為保障會員點數託售安全， 需通過帳戶驗證才會開放給配合之點數交易平台，提供購買遊戲幣及託售遊戲幣。</li>
+                            <li>本網路取得的個人資料，僅供配合之遊戲交易平台託售使用， 本網不得將會員個資提供給第三人、或移作其他目的使用。</li>
+                        </ul>
+                        <div class="text-red">
+                            PS. 如有利用本平台進行任何洗錢詐騙行為， 本公司 將停權會員並協助提供資料予檢調單位及永久扣留帳戶點數，不得異議。
+                        </div>
+                    </div>
+                    <div class="bt-box">
+                        <a href="" class="w-100 mt-3 btn btn-blue">新增銀行卡</a>
+                    </div>
+                </form>
+            </div>
         </div>
-        <div class="w-100 mt-2 mb-2">
-            <img class="img-fluid" src="./images/demopic.png" alt="">
-        </div>
-        <div class="demoimp">
-            <img src="./images/icon/warning.svg" alt="">請注意”認證照片不接受APP後製與馬賽克”
-        </div>
-
-    </div>
-</div>
-<div class="offcanvas offcanvas-bottom mycard-off" id="add">
-    <div class="offcanvas-header">
-        <h1 class="offcanvas-title">新增銀行卡</h1>
-        <a href="" class="btn-close" data-bs-dismiss="offcanvas"></a>
-    </div>
-    <div class="offcanvas-body">
-        <form>
-            <div class="row align-items-center mb-3">
-                <div class="col-3">
-                    選擇分行
-                </div>
-                <div class="col-9">
-                    <select class="form-select off-select" aria-label="">
-                        <option selected="">請選擇銀行</option>
-                        <option value="1">台灣銀行</option>
-                    </select>
-                </div>
-
-            </div>
-
-            <div class="row align-items-center mb-3">
-                <div class="col-12">
-                    <div class="form-group form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">沒有分行</label>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="row align-items-center mb-3">
-                <div class="col-3">
-                    分行名稱
-                </div>
-                <div class="col-9">
-                    <div class="form-group position-relative">
-                        <input type="text" class="form-control textinput" id="" placeholder="請輸入">
-                    </div>
-                </div>
-            </div>
-            <div class="row align-items-center mb-3">
-                <div class="col-3">
-                    銀行帳號
-                </div>
-                <div class="col-9">
-                    <div class="form-group position-relative">
-                        <input type="text" class="form-control textinput" id="" placeholder="請輸入">
-                    </div>
-                </div>
-            </div>
-            <div class="row align-items-center mb-3">
-                <div class="col-3">
-                    銀行戶名
-                </div>
-                <div class="col-9">
-                    <div class="form-group position-relative">
-                        <input type="text" class="form-control textinput" id="" placeholder="請輸入">
-                    </div>
-                </div>
-
-            </div>
-            <div class="row align-items-center mb-3">
-                <div class="col-12">
-                    <div class="form-group form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck2">
-                        <label class="form-check-label" for="exampleCheck2">設為預設</label>
-
-                    </div>
-                </div>
-            </div>
-            <div class="row align-items-center mb-4">
-                <div class="col-3">
-                    上傳檔案
-                </div>
-                <div class="col-9">
-                    <div class="form-group position-relative">
-                        <input class="form-control" type="file" id="formFileMultiple" multiple>
-                    </div>
-                </div>
-            </div>
-            <div class="record-2-3 bg-white mt-3">
-                <div class="title"><img src="./images/icon/danger.svg" alt="">注意事項</div>
-                <ul>
-                    <li>審核時間約1~3分鐘，可自行查看審核進度； 請確實依照頁面範例填寫資料，避免資料退回重審，浪費您寶貴的時間！ 如有驗證相關問題請洽客服人員！</li>
-                    <li>因網路詐騙手法推陳出新，為保障會員點數託售安全， 需通過帳戶驗證才會開放給配合之點數交易平台，提供購買遊戲幣及託售遊戲幣。</li>
-                    <li>本網路取得的個人資料，僅供配合之遊戲交易平台託售使用， 本網不得將會員個資提供給第三人、或移作其他目的使用。</li>
-                </ul>
-                <div class="text-red">
-                    PS. 如有利用本平台進行任何洗錢詐騙行為， 本公司 將停權會員並協助提供資料予檢調單位及永久扣留帳戶點數，不得異議。
-                </div>
-            </div>
-            <div class="bt-box">
-                <a href="" class="w-100 mt-3 btn btn-blue">新增銀行卡</a>
-            </div>
-        </form>
-
     </div>
 </div>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
-<script src="./bootstrap5/js/bootstrap.min.js"></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js'></script>
 <!-- Initialize Swiper -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+<script src="./bootstrap-5.3/js/bootstrap.min.js"></script>
 <script>
-    /* ==========================================================================
-       When document is loading, do
-       ========================================================================== */
-
-    $(window).on('load', function () {
-        if ($('.preloader').length) {
-            $('.preloader').delay(1000).fadeOut(500);
-        }
+    var swiper = new Swiper(".indexslider", {
+        pagination: {
+            el: ".swiper-pagination",
+        },
     });
+
+
+
+
+
+    // Get the button:
+    let mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+
+
+
 </script>
 
 </html>
